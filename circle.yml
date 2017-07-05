@@ -1,0 +1,11 @@
+machine:
+  java:
+    version: openjdk8
+dependencies:
+  override:
+     - chmod +x gradlew
+general:
+  branches:
+    only:
+      - master
+      - develop
