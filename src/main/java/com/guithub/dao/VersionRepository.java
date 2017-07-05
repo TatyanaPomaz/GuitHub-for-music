@@ -1,5 +1,6 @@
 package com.guithub.dao;
 
+import com.guithub.entity.Project;
 import com.guithub.entity.Version;
 import org.springframework.data.jpa.repository.JpaRepository;
 
